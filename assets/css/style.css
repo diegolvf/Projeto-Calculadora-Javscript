@@ -32,6 +32,7 @@ h1 {
 }
 
 input {
+    width: 295px;
     height: 1.3rem;
     margin: 0.9rem 4.3rem;
     padding: 0.5rem;
@@ -43,6 +44,11 @@ input[type=number]:focus {
     outline: none;
     box-shadow: 0 0 10px #3b59ee;
     border: 1px solid #74d0ff;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
 }
 
 button {
